@@ -5,6 +5,9 @@ using AutoBattleEngine.Core;
 
 namespace AutoBattleEngine.Examples
 {
+    /// <summary>
+    /// A demon unit is a unit that gains attack whenever an ally dies.
+    /// </summary>
     public class DemonUnit : Unit
     {
         protected override void SetDefaults()
